@@ -1,0 +1,43 @@
+body,html{
+    height: 100%;
+    background-image: linear-gradient(#4fc3f7 40%, white); 
+}
+
+#registro{
+    background-color: rgba(168,168,168,0.3);
+    margin-bottom: 20px;
+}
+
+.input-field label, i, select, option{
+    color: #eceff1;
+}
+
+.input-field .prefix.active {
+    color: #eceff1; 
+}
+
+blockquote{ 
+  border-left: 5px solid #0277bd ;
+}
+
+#btn_registros, #btn_cancelar{
+    text-align: right;
+}
+
+img {
+    width: 300px;
+    padding: 10px;
+} 
+
+nav{
+    height: 90px;
+}
+
+#todos_registros{
+    display: none; 
+}
+#registros{
+	width: 100%; 
+    height: 530px; 
+    overflow-y: scroll;
+}
